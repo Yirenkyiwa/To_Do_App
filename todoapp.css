@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+body{
+	height:100%;
+	background-color: #111;
+}
+
+h2{
+	font-size: 50px;
+	text-align:center;
+	color:#fff;
+	font-weight: 50;
+	font-family:roboto;
+	margin:15px;
+}
+
+
+#style{
+	color:cyan;
+	font-weight:800;
+}
+
+.input_div{
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.input{
+	padding:0.5rem 1rem;
+	width:450px;
+	height:50px;
+	outline:none;
+	background-color:#fff; /*white color*/
+	margin:0.25rem;
+	border-radius:25px;
+	border: none;
+
+}
+
+.Addbtn{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	border:none;
+	outline:none;
+	color:#fff;
+	font-size: 20px;
+	margin:0.25rem;
+	background-color:red;
+	cursor:pointer;
+}
+
+.Addbtn:hover{
+	opacity: 0.7; /*opacity dims the color or background color of an item*/
+	/*background-blend-mode: color-burn;*/
+}
+
+
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;/*moves all items within the class called 'contiainer'to the center*/
+	text-align:center;
+	margin-top:2rem;
+}
+
+.item{
+	padding:0.5rem;
+	margin-bottom:1.5rem;
+	border-bottom:3px solid #fff;
+
+}
+
+.item_input{
+	background:none;
+	outline:none;
+	border:none;
+	color:#fff;
+	width:350px;
+	font-size:1.4rem;
+}
+
+.editBtn{
+	background:none;
+	outline:none;
+	border:none;
+	color:cyan;
+	font-size: 1rem;
+	font-family: sans-serif;
+	cursor:pointer;
+}
+
+.removeBtn{
+	background:none;
+	outline:none;
+	border:none;
+	color:#E00;  /*red color*/
+	font-size: 1rem;
+	font-family: sans-serif;
+	cursor:pointer;
+	margin-left:5px;
+}
